@@ -1,0 +1,68 @@
+Started by user [8mha:////4Cx515MFuMEslqe/WtdHVBGJvfqpFg2HBuvY3dr251usAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL93MS80tQcAH4RyOTBAAAA[0mmanuel
+Running as SYSTEM
+Building remotely on [8mha:////4PFBef/QSNsibMI8lAmoYJedPFDnO1um9YIRnnrWmS0sAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYR/eT83ILSktQi/fLMvPji1KKy1CIAoa6A1ckAAAA=[0mwin_server (windows) in workspace C:\jenkins\workspace\Manuel_stuff\winBuilds\winTest
+[winTest] $ cmd /c call C:\Windows\TEMP\jenkins8642214420687687364.bat
+
+C:\jenkins\workspace\Manuel_stuff\winBuilds\winTest>SET
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Windows\system32\config\systemprofile\AppData\Roaming
+BASE=C:\jenkins
+BUILD_DISPLAY_NAME=#1
+BUILD_ID=1
+BUILD_NUMBER=1
+BUILD_TAG=jenkins-Manuel_stuff-winBuilds-winTest-1
+BUILD_URL=http://10.30.10.24:8080/job/Manuel_stuff/job/winBuilds/job/winTest/1/
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+CommonProgramW6432=C:\Program Files\Common Files
+COMPUTERNAME=EC2AMAZ-HGKIG1V
+ComSpec=C:\Windows\system32\cmd.exe
+DriverData=C:\Windows\System32\Drivers\DriverData
+EXECUTOR_NUMBER=0
+HUDSON_COOKIE=3bff68de-e41d-43f6-b285-e3f3599fa4a8
+HUDSON_HOME=/var/lib/jenkins
+HUDSON_SERVER_COOKIE=1ccf33c96c790823
+HUDSON_URL=http://10.30.10.24:8080/
+JENKINS_HOME=/var/lib/jenkins
+JENKINS_SERVER_COOKIE=1ccf33c96c790823
+JENKINS_URL=http://10.30.10.24:8080/
+JOB_BASE_NAME=winTest
+JOB_DISPLAY_URL=http://10.30.10.24:8080/job/Manuel_stuff/job/winBuilds/job/winTest/display/redirect
+JOB_NAME=Manuel_stuff/winBuilds/winTest
+JOB_URL=http://10.30.10.24:8080/job/Manuel_stuff/job/winBuilds/job/winTest/
+LOCALAPPDATA=C:\Windows\system32\config\systemprofile\AppData\Local
+NODE_LABELS=win_server windows
+NODE_NAME=win_server
+NUMBER_OF_PROCESSORS=1
+OS=Windows_NT
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Amazon\cfn-bootstrap\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=x86
+PROCESSOR_ARCHITEW6432=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 63 Stepping 2, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=3f02
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files (x86)
+ProgramFiles(x86)=C:\Program Files (x86)
+ProgramW6432=C:\Program Files
+PROMPT=$P$G
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\AWS Tools\PowerShell\
+PUBLIC=C:\Users\Public
+RUN_CHANGES_DISPLAY_URL=http://10.30.10.24:8080/job/Manuel_stuff/job/winBuilds/job/winTest/1/display/redirect?page=changes
+RUN_DISPLAY_URL=http://10.30.10.24:8080/job/Manuel_stuff/job/winBuilds/job/winTest/1/display/redirect
+SERVICE_ID=jenkinsslave-C__jenkins
+SystemDrive=C:
+SystemRoot=C:\Windows
+TEMP=C:\Windows\TEMP
+TMP=C:\Windows\TEMP
+USERDOMAIN=WORKGROUP
+USERNAME=EC2AMAZ-HGKIG1V$
+USERPROFILE=C:\Windows\system32\config\systemprofile
+windir=C:\Windows
+WINSW_EXECUTABLE=C:\jenkins\jenkins-slave.exe
+WINSW_SERVICE_ID=jenkinsslave-C__jenkins
+WORKSPACE=C:\jenkins\workspace\Manuel_stuff\winBuilds\winTest
+
+C:\jenkins\workspace\Manuel_stuff\winBuilds\winTest>exit 0 
+Finished: SUCCESS

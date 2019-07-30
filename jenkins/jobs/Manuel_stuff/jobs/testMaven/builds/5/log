@@ -1,0 +1,69 @@
+Started by user [8mha:////4Cx515MFuMEslqe/WtdHVBGJvfqpFg2HBuvY3dr251usAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL93MS80tQcAH4RyOTBAAAA[0mmanuel
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/Manuel_stuff/testMaven
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+Cloning the remote Git repository
+Cloning repository https://github.com/manrodri/mavenSampleProject.git
+ > git init /var/lib/jenkins/workspace/Manuel_stuff/testMaven # timeout=10
+Fetching upstream changes from https://github.com/manrodri/mavenSampleProject.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/manrodri/mavenSampleProject.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/manrodri/mavenSampleProject.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/manrodri/mavenSampleProject.git # timeout=10
+Fetching upstream changes from https://github.com/manrodri/mavenSampleProject.git
+ > git fetch --tags --progress https://github.com/manrodri/mavenSampleProject.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 8eeb15188633ed5d7ac62616ef631238ee3bf1fa (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8eeb15188633ed5d7ac62616ef631238ee3bf1fa
+Commit message: "sample project from apachemaven.org"
+ > git rev-list --no-walk 8eeb15188633ed5d7ac62616ef631238ee3bf1fa # timeout=10
+Unpacking https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.6.0/apache-maven-3.6.0-bin.zip to /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/M3 on Jenkins
+[testMaven] $ /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/M3/bin/mvn clean test
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.mycompany.app:my-app >----------------------
+[INFO] Building my-app 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4OJDZtzRPWhpmEjy4fgMx3ceTR3LE96MuKnkvVb0cQONAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ my-app ---
+[INFO] 
+[8mha:////4OJDZtzRPWhpmEjy4fgMx3ceTR3LE96MuKnkvVb0cQONAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ my-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/Manuel_stuff/testMaven/src/main/resources
+[INFO] 
+[8mha:////4OJDZtzRPWhpmEjy4fgMx3ceTR3LE96MuKnkvVb0cQONAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ my-app ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /var/lib/jenkins/workspace/Manuel_stuff/testMaven/target/classes
+[INFO] 
+[8mha:////4OJDZtzRPWhpmEjy4fgMx3ceTR3LE96MuKnkvVb0cQONAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ my-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/Manuel_stuff/testMaven/src/test/resources
+[INFO] 
+[8mha:////4OJDZtzRPWhpmEjy4fgMx3ceTR3LE96MuKnkvVb0cQONAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ my-app ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /var/lib/jenkins/workspace/Manuel_stuff/testMaven/target/test-classes
+[INFO] 
+[8mha:////4OJDZtzRPWhpmEjy4fgMx3ceTR3LE96MuKnkvVb0cQONAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.22.1:test (default-test) @ my-app ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.mycompany.app.AppTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.116 s - in com.mycompany.app.AppTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.455 s
+[INFO] Finished at: 2019-07-25T14:47:00Z
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS
